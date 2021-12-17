@@ -1,0 +1,11 @@
+{
+    "name": "Total of this Youtube Playlist",
+    "description": "See the sum of time to see all video on youtube playlist",
+    "version": "1.0",
+    "manifest_version": 3,
+    
+    "content_scripts": [{
+        "js": [ "content.js" ],
+        "matches": [ "*://www.youtube.com/playlist*" ]
+    }]
+}
